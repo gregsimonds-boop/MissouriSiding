@@ -107,3 +107,7 @@
 @media(max-width:991px){.logo-brand img{width:220px}.nav-inner{gap:16px}}
 @media(max-width:480px){.logo-brand img{width:180px}.nav-inner{gap:10px}.nav-cta{font-size:11px;letter-spacing:0;padding:10px 8px}.nav-cta i{display:none}.menu-toggle{padding:0;font-size:23px}.site-nav{padding:12px 0}.site-nav.scrolled{padding:10px 0}footer .logo-brand img{width:260px}}
 @media(max-width:359px){.logo-brand img{width:150px}.nav-inner{gap:7px}.nav-cta{font-size:10px;padding:9px 6px}}
+
+/* Explicit bounded logo sizing, including narrow navigation layouts. */
+.site-nav .logo-brand{width:min(240px,43vw)!important;max-width:240px!important}.site-nav .logo-brand img{width:100%!important;height:auto!important;max-height:84px!important}.site-nav .nav-inner{min-width:0}.site-nav nav{min-width:0}.site-nav .nav-links{gap:20px}.site-nav .nav-cta{flex-shrink:0}.site-nav .menu-toggle{flex-shrink:0}footer .logo-brand{width:260px!important;max-width:100%!important}footer .logo-brand img{width:100%!important;height:auto!important;max-height:90px!important}
+@media(max-width:480px){.site-nav .logo-brand{width:170px!important;max-width:43vw!important}.site-nav .logo-brand img{max-height:60px!important}.site-nav .nav-inner{gap:8px}.site-nav .nav-cta{padding:9px 6px;font-size:10px}footer .logo-brand{width:240px!important}}
